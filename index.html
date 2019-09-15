@@ -11,44 +11,42 @@
 
 </head>
 <body>
-<div class="container-fluid bg-white">  
+<div class="container-fluid" id="bg">  
     <!-- Container or container fluid -->
-    <div class="container-fluid" id="Header">
-    <div class="page-header">
-        <div class="row">
-            <div class="col-sm-4"><h1 id="Name">Anthony Martin</h1></div>
-            <div class="col-sm-8">
-                <div class="Navbar">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                              <div class="navbar-nav">
-                                <a class="nav-item nav-link active" href="#">About <span class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link" href="#">Portfolio</a>
-                                <a class="nav-item nav-link" href="#">Contact</a>
-                            </div> 
-                            </div>
-                            </div>
-                            </div>
-                    </nav>
-            </div>
-        </div>
-    </div>
+    <div class="header">
+            <h1 id="Name">Anthony Martin</h1>
+            <ul>
+                    <li><a href="./index.html">About</a></li>
+                <li><a href="./portfolio.html">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+      </div>       
+            
+</div>
+    
 <div class="container-fluid" id="MainContent">
     <div row>
-        <div class="col-sm-12">
-            <div class="float-sm-left"><img src="assets/images/pimage.jpg" height="200px" width="200px" class="img-responsive"></div>
-            <div><p>My name is Anthony Martin.  I'm an aspiring web developer and, although I'm new to the trade, a penchant for learning and hardwork is a part of my code.  
+        <div class="col-sm-12" id="break"><h1>About Me</h1></div>
+    </div>
+    <div row>
+    <div class="col-sm-12">
+        <div class="float-sm-left "><img src="assets/images/pimage.jpg" height="200px" width="250px" class="img-responsive " id="MainImage"></div>
+            <div class="p1"><p>My name is Anthony Martin.  I'm an aspiring web developer and, although I'm new to the trade, a penchant for learning and hardwork is a part of my code.  
                Everyday I am learning more about the subject and everyday I am practicing to refine my skills.  Soon I'll master HTML, CSS, and Javascript.  Maybe I'll use 
                that knowledge to conquer the world.  Maybe I'll make a cool website.  It's possible I'll even aquire enough knowledge to understand "floats".
             </p></div>
-        </div>
-        
+            <div class="p1"><p>I like to read, and write, and I'm a huge movie buff.  I like to read, and write, about movies too.  I'm very interested in how scripts are written, how certain 
+                    filming techniques communicate ideas and feelings, and the themes that are explored in the background.  With what I've learned, I hope to develop websites and 
+                    applications that are entertaining and creative and maybe even informative.
+            </p></div>
     </div>
-
+    </div>
 </div>
 
 
 
+
+<div class="container-fluid" id="Footer"><h6>Copyright&#169;</h6>
 </div>   
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
